@@ -1,0 +1,20 @@
+{
+  "tenantId": "<TENANT_ID>",
+  "organizationName": "Contoso",
+  "reportOutputPath": "output",
+  "inactiveDays": 90,
+  "workloads": [
+    "Environments",
+    "PowerApps",
+    "Flows",
+    "Connectors",
+    "OrphanedAssets",
+    "PremiumConnectors",
+    "DlpPolicies",
+    "GovernanceSummary"
+  ],
+  "graphScopes": [
+    "Directory.Read.All",
+    "User.Read.All"
+  ]
+}

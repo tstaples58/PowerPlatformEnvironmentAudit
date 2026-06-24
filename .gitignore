@@ -1,0 +1,13 @@
+config/tenant.json
+config/*.local.json
+output/*
+!output/.gitkeep
+*.csv
+*.log
+*.pfx
+*.cer
+*.pem
+*.key
+.vscode/
+.DS_Store
+Thumbs.db
